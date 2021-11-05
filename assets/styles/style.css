@@ -11,7 +11,20 @@
 
 #top-header {
 width: 100%;
-line-height: 2em;
-background-color: burlywood;
+line-height: 60px;
+color: blanchedalmond;
+background-color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+nav {
+    
 }
