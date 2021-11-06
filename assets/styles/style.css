@@ -24,14 +24,29 @@ h1{
      flex-wrap: wrap;
      
  }
-/* .container{
+ .containerRight{
+    max-width: 1170px;
+    padding: 0 15px;
+
+    box-sizing: border-box;
+    position: relative;
+    width: 100%; 
+    display: inline-flex;
+    
+    
+} 
+.containerLeft{
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
     position: relative;
-    width: 100%; 
-} */
+    width: 50%; 
+    display: inline-flex;
+    justify-content: left;
+    
+} 
+
 nav {
   margin: 0;
   border: 0;
@@ -58,6 +73,28 @@ li {
 
     padding: 0 10px;
 
+}
+
+#aboutMe {
+    margin: 25px;
+    width: 200px;
+    height: 250px;
+    background-color: thistle;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    float: right;
+}
+
+#photoMe {
+    margin: 25px;
+    width: 200px;
+    height: 250px;
+    background-color: thistle;
+}
+.bigcontain{
+
+    
 }
 
 
