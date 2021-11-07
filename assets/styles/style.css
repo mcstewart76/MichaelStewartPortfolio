@@ -46,27 +46,26 @@ nav {
   border: 0;
   padding: 0;
   font-size: 100%; 
-  display: inline-flex;
-  flex-wrap: wrap;  
     
 }
 .nav-links {
    list-style-type: none; 
    flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
     flex: 1 1 auto;
     padding: 0px;
     margin: 0;
     max-width: 100%;
+    justify-content: flex-end;
 }
 li {
-    display: flex;
-
     padding: 0 10px;
 
 }
-#photoMe, #aboutMe {
+#photoMe, .aboutme {
     margin: 15px;
+    min-width: 200px;
     max-width: 400px;
     height: 200px;
     flex: 1;
@@ -86,11 +85,38 @@ li {
     
    
 } */
-.myWorks {
-    margin: 20px auto;
-    max-width: 700px;
-    padding: 20;
+
+.containershort {
+    max-width: 1200px;
+    width: 500px;
     height: 50px;
+    margin: 15px auto;
+    box-sizing: border-box; 
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.containerlong{
+    max-width: 1200px;
+    width: 100%;
+    min-width: 500px;
+    height: 400px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex:1;  
+    justify-content: center;
+
+}
+.myWorks {
+    max-width: 700px;
+    min-height: 50px;
+    max-height: 70px;
+    margin: 15px;
+
     background: #080408;
     color:white;
     border: 4px solid;
@@ -100,47 +126,40 @@ li {
 }
 
 #recentWork{
-    margin: auto;
-    max-width: 700px;
+    display: flex;
+    flex:1;
+    max-width: 900px;
     height: 200px;
+    margin: 15px;
     background: #080408;
     color:white;
     border: 4px solid;
     border-image: linear-gradient(270deg, rgb(9, 206, 127), #9f2be2 );  
     border-image-slice: 1;   
     
-    flex: 1;
-}
-.containerlong{
-    max-width: 100%;
-    height: 200px;
-    padding: 10 5px;
-    margin: 15px;
-    box-sizing: border-box;  
-    flex: 1;
-  
-    justify-content: center;
-
+    
 }
 .bigcontain{
     display: flex;
+    flex-wrap: wrap;
+
 }
 .colContain {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-flow: column;
+    
     
 }
 .quadcontainer {
-    max-width: 100%; 
-    width: 300px;
-    margin: 0;
-    padding: 0;
+    
+    max-width: 400px;
+    min-width: 300px;
     height: 200px;
-     margin: 15px; 
-    box-sizing: border-box;
-    position: relative;
-    flex: 1;  
+    margin: 15px auto; 
+    box-sizing: border-box; 
     display: flex;
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;
     background: #080408;
@@ -152,10 +171,12 @@ li {
 
 
 .miniblock {
-     margin: 0 15px;
-    max-width: 500px; 
+    margin: 0px;
+    max-width: 300px; 
     padding: 20px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     height: 200px; 
     color: white;
     flex: 1;
@@ -167,7 +188,7 @@ li {
 
 .footer {
     
-    width: 80% ;
+    width: 70% ;
     height: 100%;
     padding: 1em;
     background: #080408;
