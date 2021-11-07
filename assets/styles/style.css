@@ -1,4 +1,4 @@
-
+/* Baseline formatting for the page */
 #page-contain {
     margin-left: 0;
     margin-right: 0;
@@ -6,11 +6,12 @@
      flex-direction: column; 
     color: white;
     width: 100%;
-
 }
+/* Sets background color */
 body {
     background: #060c21;
 }
+/* Gives header formatting */
 .header {
 width: 100%;
 line-height: 60px;
@@ -21,20 +22,18 @@ background-color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 align-items: center;
 }
-
+/* Changes font size of h1 tag of header */
 .header h1{
     font-size: 1.5em;
 }
-
+/* h1 tag formatting */
 h1{
      padding: 20px;
      position: relative;
      z-index: 3;
-     color: #e22b96;
-    
-     
+     color: #e22b96;  
  }
-
+/* Gives the container element formatting */
  .container{
     max-width: 100%;
     padding: 0 5px;
@@ -45,12 +44,12 @@ h1{
     justify-content: center;
    
 }  
-
+/* Makes the links not change format */
 a {
     color: inherit;
     text-decoration: inherit;
 }
-
+/* Sets nav section's formatting */
 nav {
   margin: 0;
   border: 0;
@@ -58,6 +57,7 @@ nav {
   font-size: 100%; 
     
 }
+/* Gives the list items formatting */
 .nav-links {
    list-style-type: none; 
    flex-direction: row;
@@ -69,10 +69,11 @@ nav {
     max-width: 100%;
     justify-content: flex-end;
 }
+/* Spaces the items in the list */
 li {
     padding: 0 10px;
-
 }
+/* Gives the about me and photo sections formatting */
 #photoMe, .aboutme {
     margin: 15px;
     min-width: 200px;
@@ -86,15 +87,15 @@ li {
     border-image-slice: 1;  
   
 }
-
+/* Gives the image in the photo me some formatting */
 #photoMe img{
     height: 100%;
     width: auto;
     float:right;
-    z-index: 1;
+    
 
 }
-
+/* Gives the work section formatting */
 .containershort {
     max-width: 1200px;
     width: 500px;
@@ -109,7 +110,7 @@ li {
 
 
 }
-
+/* Gives the recent work section formatting */
 .containerlong{
     max-width: 1200px;
     width: 100%;
@@ -123,7 +124,7 @@ li {
 
 }
 
-
+/* Gives the my works formatting */
 .myWorks {
     max-width: 700px;
     min-height: 50px;
@@ -137,14 +138,14 @@ li {
     border-image-slice: 1;  
     flex: 1; 
 }
-
+/* Gives the header in my works formatting */
 .myWorks h1{
     text-align: center;
     margin: auto;
     vertical-align: middle;
     position: relative;
 }
-
+/* Gives the recent work formatting */
 #recentWork{
     display: flex;
     flex:1;
@@ -157,18 +158,20 @@ li {
     border-image: linear-gradient(270deg, rgb(9, 206, 127), #9f2be2 );  
     border-image-slice: 1;   
 }
+/* Gives the img and a tag formatting for recent work section */
 #recentWork img, a{
     margin-left: auto;
     overflow: hidden;
     width: 80%;
 
 }
+/* Sets flex for section big contain */
 .bigcontain{
     display: flex;
     flex-wrap: wrap;
 
 }
-
+/* Sets flex for col contain section */
 .colContain {
     display: flex;
     justify-content: center;
@@ -176,7 +179,7 @@ li {
     
     
 }
-
+/* Gives quad contain section formatting */
 .quadcontainer {
     
     max-width: 400px;
@@ -193,7 +196,7 @@ li {
     border-image: linear-gradient(85deg, rgb(9, 206, 127), #9f2be2 );  
     border-image-slice: 1;  
 }
-
+/* Gives miniblock formatting */
 .miniblock {
     margin:0 15px;
     max-width: 400px; 
@@ -205,12 +208,12 @@ li {
     color: white;
     flex: 1;
 }
-
+/* Gives paragraph in miniblock formatting */
 .miniblock p{
 border: 3px;
 border-color: white;
 }
-
+/* Gives footer formatting */
 .footer {
     
     width: 70% ;
@@ -223,7 +226,7 @@ border-color: white;
     margin: 0 auto;
     color: white;
 }
-
+/* Gives header in footer formatting */
 .footer h1 {
     text-align:left;
     align-items: center;
@@ -232,12 +235,12 @@ border-color: white;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* Centers nav links in footer */
 .footer .nav-links{
     align-items: center;
     text-align: right;
 }
-
+/* formats image in socials section */
 #insta{
     border-radius: 14px;
     align-items: center;
@@ -246,6 +249,7 @@ border-color: white;
     height: 50px;
 
 }
+/* formats image in 3d print section */
 #threed{
     border-radius: 14px;
     align-items: center;
@@ -254,7 +258,7 @@ border-color: white;
     height: 100px;
 
 }
-
+/* formats image in github section */
 #github{
     border-radius: 14px;
     align-items: center;
